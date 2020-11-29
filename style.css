@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,800;1,300;1,800&display=swap');
+
+* {
+    font-family: 'Exo 2';
+}
+
+html,
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header,
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    padding: 1em 2.5em;
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    font-family: 'Exo 2';
+    padding-left: 1.5em;
+
+}
+
+.conteudo {
+    flex-grow: 1;
+}
+
+.tituloSemana {
+    color: blue;
+}
+
+ul li {
+    padding-left: 1em;
+    padding-bottom: .5em;
+    font-weight: 300;
+    list-style: none;
+}
+
+footer {
+    height: 5em;
+    background-color: black;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    line-height: 5em;
+}

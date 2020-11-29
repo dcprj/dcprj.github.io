@@ -1,0 +1,123 @@
+body {
+  background-color: yellow;
+  font-family: sans-serif;
+}
+
+header {
+  background-image: url(markus-spiske-iar-afB0QQw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clear: both;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20;
+  color: white;
+  text-align: center;
+  clear: both;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16;
+}
+
+p {
+  font-size: 14;
+}
+
+button {
+  padding: 10px;
+  border: solid;
+  border-color: black;
+  margin-top: 20px;
+  border-radius: 1.5em;
+}
+
+button img {
+  border-radius: 1em;
+}
+
+#imagens {
+  height: 100px;
+  margin-top: 2em;
+}
+
+#imagens div {
+  float: left;
+}
+
+#imagens div img {
+  height: 200px;
+  margin-right: 2em;
+}
+
+nav {
+  background-color: black;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+
+nav img {
+  height: 100%;
+  float: left;
+}
+
+.menuHorizontal {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: auto;
+
+}
+
+.menuHorizontal ul {
+  list-style: none;
+}
+
+.menuHorizontal li {
+  display: inline;
+  float: left;
+  padding: 0px;
+  margin: 0;
+  width: 80px;
+  height: 50px;
+}
+
+.menuHorizontal a {
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 6px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.menuHorizontal :hover {
+  background-color: #630000;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer {
+  height: 10%;
+  background-color: black;  
+  clear: both;
+}
+
+footer div {
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
