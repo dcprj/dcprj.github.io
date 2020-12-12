@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Construa uma calculadora simples</title>
+</head>
+
+<body>
+    <h1>Construa uma calculadora simples</h1>
+    <hr>
+    <label for="valor1">Primeiro valor</label>
+    <input id="valor1" type="text" name="valor1">
+    <label for="valor2">Segundo valor</label>
+    <input id="valor2" type="text" name="valor2">
+    <div>
+        <button id="soma" class="btn btn-soma" type="button" onclick="soma()">+</button>
+        <button id="subtracao" class="btn btn-subtracao" type="button" onclick="subtracao()">-</button>
+        <button id="mustiplicacao" class="btn btn-multiplicacao" type="button" onclick="multiplicacao()">x</button>
+        <button id="divisao" class="btn btn-divisao" type="button" onclick="divisao()">÷</button>
+    </div>
+    <label for="resultado">Resultado</label>
+    <input id="resultado" type="text" name="resultado" value=0 readonly>
+</body>
+
+</html>
